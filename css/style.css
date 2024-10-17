@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'nd nd nd nd nd nd nd'
+      'cd cd vd vd vd vd id'
+       'scd scd af af af af af sd'
+       'fd fd fd fd fd fd fd'
+;
+}
+
+#navbarDiv{
+    grid-area: nd;
+}
+#courseDiv{
+    grid-area: cd;
+}
+#videoDiv{
+    grid-area: vd;
+}
+#imageDiv{
+    grid-area: id;
+}
+#sCourseDiv{
+    grid-area: scd;
+}
+#applicationForm{
+    grid-area: af;
+}
+#somDiv{
+    grid-area: sd;
+}
+
+#footDiv{
+    grid-area: fd;
+}
+
+@media screenki
