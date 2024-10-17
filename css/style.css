@@ -1,11 +1,11 @@
-.grid-container {
+.grid-container{
     display: grid;
     grid-template-areas:
-      'nd nd nd nd nd nd nd'
-      'cd cd vd vd vd vd id'
-       'scd scd af af af af af sd'
-       'fd fd fd fd fd fd fd'
-;
+     'nd nd nd nd nd nd nd nd'
+     'cd cd vd vd vd vd id id'
+     'scd scd af af af af sd sd'
+     'fd fd fd fd fd fd fd fd'
+    ;
 }
 
 #navbarDiv{
@@ -15,23 +15,47 @@
     grid-area: cd;
 }
 #videoDiv{
-    grid-area: vd;
+   grid-area: vd;
 }
 #imageDiv{
-    grid-area: id;
+   grid-area: id;
 }
 #sCourseDiv{
-    grid-area: scd;
+   grid-area: scd;
 }
 #applicationForm{
-    grid-area: af;
+   grid-area: af;
 }
-#somDiv{
-    grid-area: sd;
+#someDiv{
+   grid-area: sd;
 }
-
 #footDiv{
-    grid-area: fd;
+   grid-area: fd;
 }
 
-@media screenki
+  .img-container P{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+  }
+
+  .img-container img {
+      max-width: 300px;
+      max-height: 300px;
+  }
+@media screen and (max-width: 6git add .gi00px) {
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+     'nd nd nd nd nd nd nd nd'
+     'vd vd vd vd vd vd vd vd'
+     'cd cd cd cd cd cd cd cd'
+     'id id id id id id id id'
+     'scd scd scd scd scd scd scd scd'
+     'af af af af af af af af'
+     'sd sd sd sd sd sd sd sd'
+     'fd fd fd fd fd fd fd fd'
+    ;
+}
+}
